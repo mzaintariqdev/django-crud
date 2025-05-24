@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'api' # folder of app   
+    'api',      # comma here
+    'frontend', # comma here if more apps follow
 ]
 
 MIDDLEWARE = [
